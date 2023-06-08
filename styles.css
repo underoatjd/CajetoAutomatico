@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+  background-color: #EEE9DA;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.atm-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #6096B4;
+}
+
+select,
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #BDCDD6;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #93BFCF;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #6096B4;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#password-message,
+#message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #BDCDD6;
+  color: #333;
+}

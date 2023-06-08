@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="atm-container">
+    <h1>CAJERO AUTOMÁTICO</h1>
+    <label for="account">Seleccione una cuenta:</label>
+    <select id="account" onchange="selectAccount()">
+      <option value="">Seleccione una cuenta</option>
+      <option value="0">Mali</option>
+      <option value="1">Gera</option>
+      <option value="2">Maui</option>
+    </select>
+    <div id="password-section" style="display: none;">
+      <label for="password">Ingrese el password:</label>
+      <input type="password" id="password">
+      <button onclick="validatePassword()">Ingresar</button>
+      <div id="password-message"></div>
+    </div>
+    <div id="options" style="display: none;">
+      <h3>Opciones:</h3>
+      <button onclick="checkBalance()">Consultar saldo</button>
+      <button onclick="deposit()">Ingresar monto</button>
+      <button onclick="withdraw()">Retirar monto</button>
+      <div id="message"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
